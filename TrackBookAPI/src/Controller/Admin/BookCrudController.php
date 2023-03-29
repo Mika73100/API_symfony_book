@@ -13,7 +13,6 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 
 
-
 class BookCrudController extends AbstractCrudController
 {
     public static function getEntityFqcn(): string
@@ -37,7 +36,6 @@ class BookCrudController extends AbstractCrudController
             TextareaField::new('summary'),
             AssociationField::new('category'),
             AssociationField::new('spotBooks'),
-
         ];
     }
 }
