@@ -174,8 +174,8 @@ return [[
 '[C]App%5CController%5CSpotbooksController%23addSpotBooks' => 1,
 'App%5CController%5CUserController' => 0,
 '[C]App%5CController%5CUserController' => 1,
-'App%5CController%5CUserController%23index' => 0,
-'[C]App%5CController%5CUserController%23index' => 1,
+'App%5CController%5CUserController%23getUserList' => 0,
+'[C]App%5CController%5CUserController%23getUserList' => 1,
 'App%5CEntity%5CBook' => 0,
 '[C]App%5CEntity%5CBook' => 1,
 'App%5CEntity%5CBook%23getId' => 0,
@@ -946,6 +946,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1679918972,
+1 => 1680085691,
 
 ]];

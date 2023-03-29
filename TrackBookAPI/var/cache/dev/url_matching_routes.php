@@ -14,7 +14,7 @@ return [
             [['_route' => 'spotbooks_get', '_controller' => 'App\\Controller\\SpotbooksController::getSpotBooks'], null, ['GET' => 0], null, false, false, null],
             [['_route' => 'spotbooks_post', '_controller' => 'App\\Controller\\SpotbooksController::addSpotBooks'], null, ['POST' => 0], null, false, false, null],
         ],
-        '/user' => [[['_route' => 'app_user', '_controller' => 'App\\Controller\\UserController::index'], null, null, null, false, false, null]],
+        '/users' => [[['_route' => 'app_users', '_controller' => 'App\\Controller\\UserController::getUserList'], null, ['GET' => 0], null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
