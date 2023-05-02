@@ -7,6 +7,6 @@ return [
     'app_register' => [[], ['_controller' => 'App\\Controller\\RegisterController::index'], [], [['text', '/register']], [], [], []],
     'spotbooks_get' => [[], ['_controller' => 'App\\Controller\\SpotbooksController::getSpotBooks'], [], [['text', '/spotbooks']], [], [], []],
     'spotbooks_post' => [[], ['_controller' => 'App\\Controller\\SpotbooksController::addSpotBooks'], [], [['text', '/spotbooks']], [], [], []],
-    'app_users' => [[], ['_controller' => 'App\\Controller\\UserController::getUserList'], [], [['text', '/users']], [], [], []],
+    'users' => [[], ['_controller' => 'App\\Controller\\UserController::getUserList'], [], [['text', '/users']], [], [], []],
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], [], []],
 ];
